@@ -45,7 +45,7 @@ header .header-title{
     font-weight:400;
 }
 
-
+/* hero section */
 
 .hero{
     display: flex;
@@ -54,7 +54,7 @@ header .header-title{
     position: relative;
     margin-top: 51px;
     background-color: pink;
-    padding: 100px 0;
+    padding: 150px 0;
 }
 
 .hero:before{
@@ -92,8 +92,267 @@ header .header-title{
     width: 100%;
 }
 
+.hero .content form{
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
 
-/* media quieries */
+.hero .content .form-email{
+    border-radius: 5px;
+    border-width: 0;
+    width: 60%;
+    text-decoration: none;
+    font-weight: 500;
+    text-indent: 5px;
+}
+.hero .content .button{
+    width: 15%;
+}
+
+.hero .content .button{
+    border-width: 0;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+
+/* features-grid section */
+
+.features-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.features-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+
+.features-content .features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.features-content .features-first{
+    align-items: center;
+}
+
+.features-content #svg-monitor,
+.features-content #svg-layers,
+.features-content #svg-check-mark{
+    fill:#1e89fc;
+    height: 20%;
+    width: 20%;
+}
+
+.features-content .features-text{
+    width: 75%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.features-content h3{
+    margin: 10px 0;
+}
+
+/* text-image-grid section */
+
+.text-image-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text-image-grid .layer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.layer .imgg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: -1px 0;
+}
+
+.layer .imgg img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.layer:nth-child(odd){
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.layer .sono-content{
+    display: flex;
+    position: relative;
+    flex-flow: column;
+    flex: 100%;
+    align-content: center;
+}
+
+.layer .sono-content h3,
+.layer .sono-content p{
+    padding: 0 15%;
+}
+
+.layer .sono-content h3{
+    margin: 0;
+}
+.layer .sono-content p{
+    color: grey;
+    line-height: 1.5;
+}
+
+/* testimonials section */
+
+
+.testimonials{
+    padding: 100px 0;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials h2{
+    margin: 0 0 50px 0;
+    font-size: xx-large;
+}
+
+.testimonials-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.testimonials-content .content{
+    display: block;
+    text-align: center;
+
+    width: 30%;
+}
+
+.testimonials-content .content img{
+    border-radius: 50%;
+    filter: drop-shadow(-5px 5px 5px grey);
+    /* height: auto; */
+    width: 50%;
+}
+
+.testimonials-content .content h4{
+
+}
+
+.testimonials-content .content q{
+    color: grey;
+    text-align: center;
+    width: 80%;
+}
+/* hero small section */
+
+.hero.small{
+    padding: 75px 0;
+    margin: 0;
+}
+
+.hero.small .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+.hero.small h3{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    width: 700px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.hero.small .content .form-email{
+    width: 80%;
+    padding: 10px 0;
+}
+.hero.small .content .button{
+    width: 20%;
+}
+
+/* footer  */
+
+footer{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding: 50px 0;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.container .ul-list{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.container .ul-list li{
+    margin: 0 0 0 15px;
+    padding: 0 15px 0 0;
+    text-decoration: none;
+    font-size: small;
+    
+}
+.container .ul-list a{
+    text-decoration: none;
+    color: #027bfe;
+    font-size:medium;
+}
+
+.ul-list #li_pirmas{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+}
+
+.container .socials{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10%;
+}
+
+.container .links{
+    width: auto;
+}
+
+#footer_fb,
+#footer_twitter,
+#footer_insta{
+    fill:#027bfe;
+}
+    /* media quieries */
 
 @media (max-width:700px){
     .hero{
