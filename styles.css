@@ -416,7 +416,7 @@ header .header-title{
         padding: 100px 0;
     }
     .hero.small .content{
-        width: 90%;
+        width: 80%;
     }
     .hero.small .content form{
         display: flex;
@@ -425,14 +425,14 @@ header .header-title{
         align-items: center;
     }
     .hero.small .content .form-email{
-        width: 90%;
+        width: 100%;
         text-indent: 10px;
         height: 44px;
         margin-bottom: 10px;
         padding: 0 0;
     }
     .hero.small .content .button{
-        width: 90%;
+        width: 100%;
         margin-left: 0;
         height: auto;
         padding: 10px 16px;
