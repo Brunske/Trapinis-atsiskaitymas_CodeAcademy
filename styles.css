@@ -269,13 +269,13 @@ header .header-title{
     position: relative;
     flex-flow: column;
     flex: 100%;
-    width: 80%;
     align-content: center;
 }
 
 .layer .sono-content h3,
 .layer .sono-content p{
-    padding: 0 0;
+    width: 70%;
+    align-self: center;
 }
 
 .layer .sono-content h3{
